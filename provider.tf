@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
    backend "s3" {
-    bucket = "wordpress-terraform"
+    bucket = "wordpress-remote-state-zxcvbnm"
     key    = "terraform.tfstate"
     region = "ap-southeast-1"
   }
@@ -13,4 +13,3 @@ terraform {
 data "aws_caller_identity" "current" {}
 
 data "aws_availability_zones" "available" {}
-© 2020 GitHub, Inc.
