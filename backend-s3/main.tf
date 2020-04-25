@@ -4,7 +4,7 @@ resource "aws_kms_key" "state_key" {
 }
 
 resource "aws_s3_bucket" "remote_state" {
-  bucket = "alpha-remote-state-zxcvbnm"
+  bucket = "wordpress-remote-state-zxcvbnm"
   acl    = "private"
   region = "ap-southeast-1"
 
