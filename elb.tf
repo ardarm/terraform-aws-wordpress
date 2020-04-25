@@ -33,6 +33,6 @@ resource "aws_elb" "wordpress" {
   }
 }
 
-output "wordpress_elb" {
+output "wordpress_dnsname" {
     value = "${aws_elb.wordpress.dns_name}"
 }
