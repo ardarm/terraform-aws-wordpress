@@ -11,7 +11,7 @@ Notes : This project will run on `Amazon Web Services` and the wordpress site wi
 
 Do this step for Backend-S3 creation : 
 ```
-git clone git@github.com:ardarm/terraform-web-server-client.git
+git clone git@github.com:ardarm/terraform-aws-wordpress.git
 cd terraform-aws-wordpress/backend-s3
 terraform init 
 terraform apply
