@@ -24,7 +24,7 @@ terraform init
 terraform apply
 ```
 
-Notes : Please wait untill the provisioning finished. Refer to the ELB dnsname for the Wordpress link URL.
+Notes : Please wait untill the provisioning finished. Refer to the `wordpress_dnsname` for the Wordpress link URL.
 
 **Components Created**
 ----------
