@@ -32,3 +32,7 @@ resource "aws_elb" "wordpress" {
     Project = "wordpress"
   }
 }
+
+output "wordpress_elb" {
+    value = "${aws_elb.wordpress.dns_name}"
+}
