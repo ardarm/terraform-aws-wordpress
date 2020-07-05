@@ -23,9 +23,9 @@ resource "aws_elb" "wordpress" {
 
   #instances                   = ["${aws_instance.docker.id}"]
   cross_zone_load_balancing   = true
-  idle_timeout                = 400
+  idle_timeout                = 30
   connection_draining         = true
-  connection_draining_timeout = 400
+  connection_draining_timeout = 30
 
   tags {
     Name = "wordpress-elb"
